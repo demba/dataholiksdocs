@@ -1,0 +1,99 @@
+\documentclass[11pt]{article}
+
+\usepackage[left=0.25in,right=0.25in,top=0.75in,bottom=0.5in]{geometry}
+%\usepackage[dvips]{graphicx}
+\usepackage{epsfig,amsfonts,amsmath,amsthm}
+
+\usepackage{atbegshi,picture}
+\usepackage{lipsum}
+
+\usepackage{wrapfig}
+
+\pagenumbering{gobble}
+
+
+
+\AtBeginShipout{\AtBeginShipoutUpperLeft{%
+  \put(1.35in,-1.5cm){\makebox[0pt][r]{Dataholiks, LLC}}%
+}}
+
+\begin{document}
+
+%\lipsum[1-5]
+
+\begin{titlepage}
+
+
+\thispagestyle{empty}
+
+\vspace{-1in}
+
+\title{\vspace{-0.5in} Data-Driven Business Consulting Solutions}
+%\author{Demba Ba, Harvard University}
+\date{}
+\maketitle
+%\begin{wrapfigure}{r}{0.6\textwidth}
+%  \begin{center}
+%  	\vspace{-0.3in}
+%    \includegraphics[width=0.6\textwidth]{ppresults_sloan.pdf}
+%  \end{center}
+%  \vspace{-0.3in}
+%  \caption{Spectral decomposition of the neural spiking activity from a subject undergoing propofol-induced general anesthesia. A) LFP activity, B) raster plot of the spike trains from the 41 units which were simultaneously acquired alongside the LFP activity, C) spectral decomposition of the firing rate in the $[0.05,1]$Hz band (color scale in dB). (Right) Zoomed-in views from $t = 140$s to $t = 152$  s. The transition into LOC is marked by the onset of a strong $\approx 0.45$ Hz oscillation.}
+%  \label{fig:ppspctrm}
+%\end{wrapfigure}
+%%\lipsum[1-2]
+%
+\vspace{-0.75in}
+
+\begin{itemize}
+	\item Want to get real world experience with data science?
+	\item Want to get paid to learn bleeding edge data technologies? 
+	\item Work part-time and earn up to \textbf{\$100 per hour}.  
+\end{itemize}
+
+\noindent Dataholiks is a data-science consulting company based out of San Francisco and Boston.  We already possess a number of clients already and are growing fast.  Our model is to give students paid apprenticeships to work on real world data-science problems. 
+\\
+\\
+\noindent We’re looking for:
+\begin{itemize}
+	\item Part-time data scientists with backgrounds in machine learning, statistics, and applied mathematics.  
+	\item It is strongly preferred that applicants already have experience on the Python data stack including pandas, scipy, numpy, matplotlib, and iPython. 
+\end{itemize}
+
+\noindent We'll teach you everything else:
+\begin{itemize}
+	\item Learn data tools like Google BigQuery, Hadoop, Postgres, and Spark.  
+	\item Learn about production implementation of data pipelines using AWS, Heroku, PubSub, and Google Cloud Platform. 
+	\item Learn data visualization using Tableau, Plot.ly, and d3.js.  
+\end{itemize}
+
+\noindent We are helping companies with their core data-science problems and need help with all the work that we have.  We are looking for candidates that can commit $\sim$\textbf{10 hours/week}.  
+\\
+\\
+\noindent Here’s a slice of current problems that we are working on: 
+
+\begin{itemize}
+
+	\item \textbf{Accelerating customer growth for a startup.}  We are creating a customer model using terabytes of transaction data to answer various questions for our client:  Who are their best customers that are highly engaged with the product?  What about them makes them good?  How can we find more companies like them?  We are helping them with critical business questions in their growth phase.
+ 
+	\item \textbf{Network analysis of call data for a video-conferencing startup.}  We are analyzing call data to answer various questions for our client:  Who is using the product?  How are they using it?  How can we design treatments to improve engagement? The eventual goal is to productize this into a web product that will be sold to customers.
+	   
+	\item \textbf{Analyzing commercial building climate control systems for a startup.}  We are developing production data algorithms for our client that aims to revolutionize the efficiency with which commercial buildings are run. Our algorithms form the core of the company’s decision support tools.  We answer questions such as: When should we turn on a building so it’s not wasting energy?  How should we phase the startup of HVAC systems so that it is the most efficient? 
+	
+\end{itemize}
+
+
+
+\end{titlepage}
+
+%\restoregeometry
+
+\newpage
+
+
+%\section*{References}
+
+\bibliographystyle{unsrt}
+\bibliography{sloan}
+
+\end{document}
